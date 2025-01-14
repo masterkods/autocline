@@ -1,0 +1,2 @@
+
+Check if .prompts/stat/env-setup-done.md exists. If not, read setup instructions from .prompts/set-env.prmt. If it exists, set AUTO_CLINE_SETUP_DONE to true.

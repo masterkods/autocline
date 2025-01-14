@@ -1,0 +1,7 @@
+Setup development environment for VSCode extension:
+
+1. Setup Python venv in .venv (if not exists)
+2. Install Node.js via nodeenv in .venv (if not exists)
+3. Verify Node.js runs from .venv
+4. Configure VSCode debugging
+5. Log your work to the file .prompts/stat/env-setup-done.md
