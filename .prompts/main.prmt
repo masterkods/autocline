@@ -1,0 +1,13 @@
+1. Check AUTO_CLINE_SETUP_DONE flag
+   - If false: Exit with error
+   - If true: Continue
+
+2. Read initial configuration from .prompts/system.prmt
+
+3. Check available files and proceed:
+   - If the file '.prompts/stat/issues/new/draft.md' exists:
+     Read instructions from .prompts/improve-draft-issue.prmt
+   - If the file '.prompts/stat/issues/new/issue.md' exists:
+     Read instructions from .prompts/new-issue.prmt
+   - If neither file exists:
+     Exit with "No task found" error

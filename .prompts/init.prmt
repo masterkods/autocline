@@ -1,2 +1,6 @@
+improve clarity and conciseness the below text:
 
-Check if .prompts/stat/env-setup-done.md exists. If not, read setup instructions from .prompts/set-env.prmt. If it exists, set AUTO_CLINE_SETUP_DONE to true.
+1. If .prompts/stat/env-setup-done.md exists, set AUTO_CLINE_SETUP_DONE to true and read .prompts/main.prmt. Otherwise, read setup instructions from .prompts/set-env.prmt.
+
+2. Read .prompts/main.prmt for further instructions.
+

@@ -1,0 +1,5 @@
+
+1. Verify AUTO_CLINE_SETUP_DONE == true, report error Otherwise
+1. Read the file .prompts/system.prmt to learn inital info about the your task
+2. Read the file .prompts/improve-draft-issue.prmt for furher instructions if and only if the file .prompts/stat/issues/new/draft.md exists.
+3. Else read the file .prompts/new-issue.prmt for furher instructions if and only if the file .prompts/stat/issues/new/issue.md exists.
